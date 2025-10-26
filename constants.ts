@@ -1,0 +1,14 @@
+import type { ImageStyle } from './types';
+
+export const STYLES: ImageStyle[] = [
+  { id: 'anime', name: 'Anime', prompt: 'Transform the uploaded image into a vibrant, high-quality anime style. The result should have clean lines, expressive eyes, and the characteristic cel-shading look of modern Japanese animation. Maintain the original composition and character pose.', description: 'A style inspired by Japanese animation.' },
+  { id: 'cartoon', name: 'Cartoon', prompt: 'Convert the image into a playful 3D cartoon style, similar to modern animated movies. The final image should have soft lighting, exaggerated features, and a friendly, stylized appearance. Keep the essence of the original subject.', description: 'A fun, stylized 3D animation look.' },
+  { id: 'realistic', name: 'Realistic', prompt: 'Enhance the uploaded photo to be hyper-realistic. Increase the detail, texture, and lighting to make it look like a high-resolution, professionally captured photograph. The style should be grounded in reality with sharp focus and natural colors.', description: 'A highly detailed, photorealistic style.' },
+  { id: 'cyberpunk', name: 'Cyberpunk', prompt: 'Reimagine the image with a cyberpunk aesthetic. Add neon lighting, futuristic cybernetic enhancements, and a gritty, high-tech urban background. The color palette should be dominated by blues, purples, and pinks against a dark, rainy city scene.', description: 'Futuristic, neon-lit, and high-tech.' },
+  { id: 'fantasy', name: 'Fantasy', prompt: 'Transform the image into a piece of high-fantasy art. Infuse it with magical elements, ethereal lighting, and ornate details. The subject could be depicted as an elf, a warrior, or a mage in an enchanted landscape. Style of a fantasy book cover.', description: 'Magical, epic, and otherworldly.' },
+  { id: 'oil_painting', name: 'Oil Painting', prompt: 'Render the uploaded image in the style of a classical oil painting. The result should have visible brushstrokes, rich textures, and a dramatic, chiaroscuro lighting effect. The colors should be deep and vibrant, reminiscent of the Old Masters.', description: 'Classic, textured, with visible brushstrokes.' },
+  { id: 'pixel_art', name: 'Pixel Art', prompt: 'Convert the image into detailed 16-bit pixel art. The final output should be blocky yet recognizable, with a limited color palette and a retro video game feel. Maintain the key features and composition of the original photo.', description: 'Retro, blocky, 16-bit video game style.' },
+  { id: 'sketch', name: 'Sketch', prompt: 'Transform the image into a detailed pencil sketch on textured paper. The result should be monochrome, with fine lines, cross-hatching for shading, and a hand-drawn feel. Emphasize contours and shadows.', description: 'A hand-drawn pencil sketch look.' },
+];
+
+export const MAX_HISTORY_ITEMS = 3;

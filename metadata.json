@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Style Generator",
+  "description": "Upload an image, choose a style, and let AI transform it into a new piece of art. Download your creation and see your recent history.",
+  "requestFramePermissions": []
+}
